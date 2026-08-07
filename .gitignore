@@ -1,0 +1,15 @@
+# Course materials and local working files
+*.pdf
+*.ppt
+*.pptx
+tmp/
+
+# Java build output
+*.class
+
+# Editor and operating-system files
+.vscode/
+.idea/
+*.log
+Thumbs.db
+.DS_Store
