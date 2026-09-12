@@ -1,1 +1,27 @@
-public class ParkingOverstayFine { static class ParkingTicket{String vehicleNo;double ratePerMinute;ParkingTicket(String v,double r){vehicleNo=v;ratePerMinute=r;}final double calculateFine(int m){return m*ratePerMinute;}final void printReceipt(int m){System.out.println(vehicleNo+" - Fine: Rs "+calculateFine(m));}} public static void main(String[]a){ParkingTicket x=new ParkingTicket("TN09AB1234",2);x.printReceipt(15);} }
+public class ParkingOverstayFine {
+
+    static class ParkingTicket {
+        String vehicleNo;
+        double ratePerMinute;
+
+        ParkingTicket(String v, double r) {
+            vehicleNo = v;
+            ratePerMinute = r;
+        }
+
+        final double calculateFine(int m) {
+            return m * ratePerMinute;
+        }
+
+        final void printReceipt(int m) {
+            System.out.println(
+                    vehicleNo + " - Fine: Rs " + calculateFine(m)
+            );
+        }
+    }
+
+    public static void main(String[] a) {
+        ParkingTicket x = new ParkingTicket("TN09AB1234", 2);
+        x.printReceipt(15);
+    }
+}
