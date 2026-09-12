@@ -1,1 +1,30 @@
-public class LateFeeCalculator { static class Account{String id;double rate;Account(String i,double r){id=i;rate=r;}final double fine(int days){return days*rate;}} public static void main(String[]a){String[] ids={"A1","A2"};int[] days={4,0};for(int i=0;i<ids.length;i++){Account x=new Account(ids[i],10);System.out.println(days[i]>0?ids[i]+" | Fee: Rs "+x.fine(days[i]):ids[i]+" - No late fee");}} }
+public class LateFeeCalculator {
+
+    static class Account {
+        String id;
+        double rate;
+
+        Account(String i, double r) {
+            id = i;
+            rate = r;
+        }
+
+        final double fine(int days) {
+            return days * rate;
+        }
+    }
+
+    public static void main(String[] a) {
+        String[] ids = {"A1", "A2"};
+        int[] days = {4, 0};
+
+        for (int i = 0; i < ids.length; i++) {
+            Account x = new Account(ids[i], 10);
+            System.out.println(
+                    days[i] > 0
+                            ? ids[i] + " | Fee: Rs " + x.fine(days[i])
+                            : ids[i] + " - No late fee"
+            );
+        }
+    }
+}
