@@ -38,6 +38,14 @@ Semester 3/
 - Warehouse Inventory Balancer
 - Movie Review Word Length Profiler
 
+### PDF Practice Problems
+
+- Rock-Paper-Scissors Game
+- Palindrome Checker (3 Approaches)
+- BMI Calculator for a Team
+- First Non-Repeating Character
+- Reverse Customer Name
+
 ## Week 2
 
 - ATM PIN Length Validator
@@ -45,6 +53,14 @@ Semester 3/
 - Product Inventory CSV Parser
 - Library ISBN Normalizer & Validator
 - Stop-Word-Filtered Word Frequency Report
+
+### PDF Practice Problems
+
+- Vowel & Consonant Counter
+- CSV Student Record Parser
+- File Extension Validator
+- Masked Phone Number Formatter
+- Bank Transaction Reference Generator & Validator
 
 ## Week 3
 
