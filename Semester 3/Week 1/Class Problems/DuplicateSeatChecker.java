@@ -1,8 +1,6 @@
 public class DuplicateSeatChecker {
-
     public static void checkDuplicateSeats(int[] seatNumbers) {
         boolean duplicateFound = false;
-
         for (int i = 0; i < seatNumbers.length; i++) {
             for (int j = i + 1; j < seatNumbers.length; j++) {
                 if (seatNumbers[i] == seatNumbers[j]) {
@@ -11,7 +9,6 @@ public class DuplicateSeatChecker {
                 }
             }
         }
-
         if (!duplicateFound) {
             System.out.println("No Duplicate Seats Found");
         }

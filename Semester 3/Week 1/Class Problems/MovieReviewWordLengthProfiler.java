@@ -1,15 +1,12 @@
 public class MovieReviewWordLengthProfiler {
-
     public static void classifyWordLengths(String review) {
         String[] words = review.split(" ");
-
         int shortWords = 0;
         int mediumWords = 0;
         int longWords = 0;
 
         for (int i = 0; i < words.length; i++) {
             int wordLength = words[i].length();
-
             if (wordLength <= 4) {
                 shortWords++;
             } else if (wordLength <= 8) {

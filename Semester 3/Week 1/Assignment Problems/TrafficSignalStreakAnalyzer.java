@@ -1,5 +1,4 @@
 public class TrafficSignalStreakAnalyzer {
-
     public static void findLongestStreak(String signalLog) {
         char longestColor = signalLog.charAt(0);
         int currentStreak = 1;
@@ -11,17 +10,14 @@ public class TrafficSignalStreakAnalyzer {
             } else {
                 currentStreak = 1;
             }
-
             if (currentStreak > longestStreak) {
                 longestStreak = currentStreak;
                 longestColor = signalLog.charAt(i);
             }
         }
 
-        System.out.println(
-                "Longest Streak: '" + longestColor
-                        + "' repeated " + longestStreak + " times"
-        );
+        System.out.println("Longest Streak: '" + longestColor
+                + "' repeated " + longestStreak + " times");
     }
 
     public static void main(String[] args) {
