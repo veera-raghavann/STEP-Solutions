@@ -1,0 +1,2 @@
+import java.util.Arrays;
+public class PremiumLateFeeLedger { static class GymMember{private int[] fees=new int[10];private int n;protected void chargeLateFee(int a){fees[n++]=a;}int[] getLateFeeHistory(){return Arrays.copyOf(fees,n);}int getTotalLateFees(){int s=0;for(int x:getLateFeeHistory())s+=x;return s;}}static class PremiumMember extends GymMember{@Override protected void chargeLateFee(int a){super.chargeLateFee(a/2);}}public static void main(String[]a){PremiumMember p=new PremiumMember();p.chargeLateFee(200);System.out.println(p.getTotalLateFees());} }

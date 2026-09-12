@@ -1,0 +1,2 @@
+import java.util.Arrays;
+public class StudentFineLedger { static class LibraryMember{private int[] fees=new int[10];private int n;protected void chargeFine(int a){fees[n++]=a;}int[] getFineHistory(){return Arrays.copyOf(fees,n);}int getTotalFine(){int s=0;for(int x:getFineHistory())s+=x;return s;}}static class StudentMember extends LibraryMember{@Override protected void chargeFine(int a){super.chargeFine(a/2);}}public static void main(String[]a){StudentMember s=new StudentMember();s.chargeFine(100);System.out.println(s.getTotalFine());} }
