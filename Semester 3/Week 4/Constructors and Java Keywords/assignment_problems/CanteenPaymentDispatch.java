@@ -1,1 +1,34 @@
-public class CanteenPaymentDispatch { static class Payment{double pay(double a){System.out.println("Paid (cash): Rs "+a);return a;}}static class CardPayment extends Payment{double payWithProcessingFee(double a){double n=a*1.02;System.out.println("Charged (card, incl. fee): Rs "+n);return n;}}static double processTransaction(Payment p,double a){return p instanceof CardPayment?((CardPayment)p).payWithProcessingFee(a):p.pay(a);}public static void main(String[]a){Payment[] p={new CardPayment(),new Payment()};double total=0;for(Payment x:p)total+=processTransaction(x,100);System.out.println("Total Collected: Rs "+total);} }
+public class CanteenPaymentDispatch {
+
+    static class Payment {
+        double pay(double a) {
+            System.out.println("Paid (cash): Rs " + a);
+            return a;
+        }
+    }
+
+    static class CardPayment extends Payment {
+        double payWithProcessingFee(double a) {
+            double n = a * 1.02;
+            System.out.println("Charged (card, incl. fee): Rs " + n);
+            return n;
+        }
+    }
+
+    static double processTransaction(Payment p, double a) {
+        return p instanceof CardPayment
+                ? ((CardPayment) p).payWithProcessingFee(a)
+                : p.pay(a);
+    }
+
+    public static void main(String[] a) {
+        Payment[] p = {new CardPayment(), new Payment()};
+        double total = 0;
+
+        for (Payment x : p) {
+            total += processTransaction(x, 100);
+        }
+
+        System.out.println("Total Collected: Rs " + total);
+    }
+}
