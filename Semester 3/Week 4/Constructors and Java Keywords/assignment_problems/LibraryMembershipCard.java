@@ -1,1 +1,27 @@
-public class LibraryMembershipCard { static class MembershipCard{static String libraryName,validUntil;static{libraryName="SRM Central Library";validUntil="May 2027";System.out.println("Library info loaded");}String studentName;MembershipCard(String n){studentName=n;}} public static void main(String[]a){for(String n:new String[]{"Ananya","Rohan"})System.out.println("Membership card issued: "+new MembershipCard(n).studentName);} }
+public class LibraryMembershipCard {
+
+    static class MembershipCard {
+        static String libraryName;
+        static String validUntil;
+
+        static {
+            libraryName = "SRM Central Library";
+            validUntil = "May 2027";
+            System.out.println("Library info loaded");
+        }
+
+        String studentName;
+
+        MembershipCard(String n) {
+            studentName = n;
+        }
+    }
+
+    public static void main(String[] a) {
+        for (String n : new String[]{"Ananya", "Rohan"}) {
+            System.out.println(
+                    "Membership card issued: " + new MembershipCard(n).studentName
+            );
+        }
+    }
+}
