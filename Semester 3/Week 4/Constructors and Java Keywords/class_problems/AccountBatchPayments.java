@@ -15,13 +15,11 @@ public class AccountBatchPayments {
     public static void main(String[] a) {
         FeeAccount[] p = {new HostelFeeAccount(), new FeeAccount()};
         double total = 0;
-
         for (FeeAccount x : p) {
             double paid = x.pay(100);
             total += paid;
             System.out.println("Paid: " + paid);
         }
-
         System.out.println("Total: " + total);
     }
 }
