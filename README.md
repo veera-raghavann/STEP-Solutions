@@ -16,6 +16,18 @@ Semester 3/
     Week 3 - OOP/
       class_problems/
       assignment_problems/
+  Week 4/
+    Constructors and Java Keywords/
+      class_problems/
+      assignment_problems/
+  Week 5/
+    Access Modifiers and Encapsulation/
+      class_problems/
+      assignment_problems/
+  Week 6/
+    Inheritance and Polymorphism/
+      class_problems/
+      assignment_problems/
 ```
 
 ## Week 1
@@ -46,3 +58,9 @@ Semester 3/
 - Overloaded Constructors for an Employee
 - Reference Copies and a Shared Exam Hall Ticket
 - Instance vs Static: Splitting an Employee Class Correctly
+
+## Weeks 4-6
+
+Each of Weeks 4, 5, and 6 contains five PDF-based practice solutions in
+`class_problems` and five assignment solutions in `assignment_problems`.
+The folder README for each week lists the individual programs.
