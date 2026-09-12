@@ -9,9 +9,11 @@ Solutions are organised by semester and week. Each week contains one Java file f
 ```text
 Semester 3/
   Week 1/
-    Week 1 - Solutions/
+    Class Problems/
+    Assignment Problems/
   Week 2/
-    Week 2 - Solutions/
+    Class Problems/
+    Assignment Problems/
   Week 3/
     Week 3 - OOP/
       class_problems/
