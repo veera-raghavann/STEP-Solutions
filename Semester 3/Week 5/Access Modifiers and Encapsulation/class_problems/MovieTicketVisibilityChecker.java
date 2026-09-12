@@ -1,1 +1,23 @@
-public class MovieTicketVisibilityChecker { static class MovieTicket{private String bookingPin;String screen;protected double ticketPrice;public String title;}static String classifyAccess(String m,String c){if(m.equals("public"))return "ALLOWED";if(m.equals("private"))return c.equals("SAME_CLASS")?"ALLOWED":"DENIED";return c.equals("DIFFERENT_PACKAGE")?"DENIED":"ALLOWED";}public static void main(String[]a){System.out.println(classifyAccess("private","SAME_CLASS"));} }
+public class MovieTicketVisibilityChecker {
+
+    static class MovieTicket {
+        private String bookingPin;
+        String screen;
+        protected double ticketPrice;
+        public String title;
+    }
+
+    static String classifyAccess(String m, String c) {
+        if (m.equals("public")) {
+            return "ALLOWED";
+        }
+        if (m.equals("private")) {
+            return c.equals("SAME_CLASS") ? "ALLOWED" : "DENIED";
+        }
+        return c.equals("DIFFERENT_PACKAGE") ? "DENIED" : "ALLOWED";
+    }
+
+    public static void main(String[] a) {
+        System.out.println(classifyAccess("private", "SAME_CLASS"));
+    }
+}
