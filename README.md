@@ -4,7 +4,7 @@ Java solutions completed as part of the SRM Talent Empowerment Program (STEP).
 
 ## Structure
 
-Solutions are organised by semester and week. Each week contains one Java file for every assigned problem.
+Solutions are organised by semester and week. Each week contains separate `class_problems` and `assignment_problems` folders where the corresponding problem sheets are provided.
 
 ```text
 Semester 3/
@@ -14,6 +14,14 @@ Semester 3/
     Week 2 - Solutions/
   Week 3/
     Week 3 - OOP/
+      class_problems/
+      assignment_problems/
+  Week 7/
+    Week 7 - Abstraction & Interface/
+      class_problems/
+      assignment_problems/
+  Week 8/
+    Week 8 - Coding Assignment/
       class_problems/
       assignment_problems/
 ```
@@ -46,3 +54,30 @@ Semester 3/
 - Overloaded Constructors for an Employee
 - Reference Copies and a Shared Exam Hall Ticket
 - Instance vs Static: Splitting an Employee Class Correctly
+
+## Week 7 — Abstraction & Interface
+
+### Class Problems
+- The Talking Toy Box
+- Warehouse Label Printer
+- Orchestra Warm-Up Routine
+- Smart Kitchen Assistant
+- Package Drop-Off Log
+
+### Assignment Problems
+- Morning Wake-Up Circuit
+- Gallery Description Cards
+- Backyard Toolshed Routine
+- Digital Classroom Setup
+- Skyline Delivery Fleet
+
+## Week 8 — Coding Assignment
+
+### Assignment Problems
+- The Hostel Laundry Queue
+- The Assignment Submission Portal
+- The Campus Premiere Ticket Counter
+- The FitZone Membership Desk
+- The Campus Notice Broadcaster
+
+> The uploaded Week 8 material contained the Category B coding assignment. No separate Week 8 practice sheet was included in the files used for this update.
