@@ -82,3 +82,28 @@ Semester 3/
 Each of Weeks 4, 5, and 6 contains five PDF-based practice solutions in
 `class_problems` and five assignment solutions in `assignment_problems`.
 The folder README for each week lists the individual programs.
+
+## Week 7 — Abstraction & Interface
+
+### Class Problems
+- Talking Toy Box
+- Warehouse Label Printer
+- Orchestra Warm-Up Routine
+- Smart Kitchen Assistant
+- Package Drop-Off Log
+
+### Assignment Problems
+- Morning Wake-Up Circuit
+- Gallery Description Cards
+- Backyard Toolshed Routine
+- Digital Classroom Setup
+- Skyline Delivery Fleet
+
+## Week 8 — Coding Assignment
+
+### Assignment Problems
+- Hostel Laundry Queue
+- Assignment Submission Portal
+- Campus Premiere Ticket Counter
+- FitZone Membership Desk
+- Campus Notice Broadcaster
