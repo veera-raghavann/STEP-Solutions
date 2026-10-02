@@ -1,3 +1,9 @@
 # Week 8 Class Problems
 
-No separate Week 8 practice/class-problem sheet was provided in the uploaded material used for this update.
+Coding practice solutions from STEP Week 8.
+
+1. VehicleRentalSystem
+2. EmployeeLeaveRequestWorkflow
+3. OnlineExaminationSystem
+4. HotelBookingSystem
+5. PaymentProcessingShoppingSystem
