@@ -42,6 +42,10 @@ Semester 3/
     Week 9 - Data Structures/
       class_problems/
       assignment_problems/
+  Week 10/
+    Week 10 - Data Structures/
+      class_problems/
+      assignment_problems/
 ```
 
 ## Week 1
@@ -135,3 +139,20 @@ The folder README for each week lists the individual programs.
 - Most Popular Canteen Order
 - Hot Weather Alert Windows
 - Ticket Price Slot Finder
+
+## Week 10 — Data Structures
+
+### Class Problems
+- Bank Account Withdrawal System
+- Campus Vehicle Pass System
+- Student Club Registration Management
+- Class Marks Grid Analysis
+- Payroll Register System
+
+### Assignment Problems
+- Priority Token Insertion
+- Cancelled Orders Cleanup
+- Train Coaches Both Ways
+- Round-Robin Game Turns
+
+The uploaded assignment PDFs covered Problems 1, 2, 4, and 5; Problem 3 was not included.
