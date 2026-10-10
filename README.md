@@ -152,7 +152,8 @@ The folder README for each week lists the individual programs.
 ### Assignment Problems
 - Priority Token Insertion
 - Cancelled Orders Cleanup
+- Reverse the Queue
 - Train Coaches Both Ways
 - Round-Robin Game Turns
 
-The uploaded assignment PDFs covered Problems 1, 2, 4, and 5; Problem 3 was not included.
+The uploaded assignment PDFs cover Problems 1 through 5.
