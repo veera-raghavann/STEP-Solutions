@@ -30,6 +30,18 @@ Semester 3/
     Inheritance and Polymorphism/
       class_problems/
       assignment_problems/
+  Week 7/
+    Week 7 - Abstraction & Interface/
+      class_problems/
+      assignment_problems/
+  Week 8/
+    Week 8 - Coding Assignment/
+      class_problems/
+      assignment_problems/
+  Week 9/
+    Week 9 - Data Structures/
+      class_problems/
+      assignment_problems/
 ```
 
 ## Week 1
@@ -107,3 +119,19 @@ The folder README for each week lists the individual programs.
 - Campus Premiere Ticket Counter
 - FitZone Membership Desk
 - Campus Notice Broadcaster
+
+## Week 9 — Data Structures
+
+### Class Problems
+- Library Catalog Lookup
+- Warehouse Grid Summary
+- Pair With Target Sum (Unsorted)
+- Pair With Target Sum (Unsorted Array)
+- Maximize Area Between Two Boundaries
+
+### Assignment Problems
+- Class Topper Finder
+- Merging Two Token Queues
+- Most Popular Canteen Order
+- Hot Weather Alert Windows
+- Ticket Price Slot Finder
